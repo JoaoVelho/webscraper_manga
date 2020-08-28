@@ -28,19 +28,19 @@ There's a new chapter of A Trail of Blood available!!.
 Subject: New Boruto Chapter
 
 There's a new chapter of Boruto available!!.
-""" + f"https://borutomangaread.com/manga/boruto-chapter-{caps[1]}/"
+""" + f"https://scansexplorer.com.br/manga/boruto-naruto-next-generations/capitulo-{caps[1]}/"
 )
 
 PATH = 'C:\chromedriver.exe'
 
 urls = [
   f"https://mangajar.com/manga/a-trail-of-blood/chapter/{caps[0]}",
-  f"https://borutomangaread.com/manga/boruto-chapter-{caps[1] + 1}/"
+  f"https://scansexplorer.com.br/manga/boruto-naruto-next-generations/capitulo-{caps[1]}/"
 ]
 
 xpaths = [
-  "/html/body/div[1]/div[2]/img[1]",
-  "//div[@class='separator']"
+  '/html/body/div[1]/div[2]/img[1]',
+  '//*[@id="image-0"]'
 ]
 
 option = Options()
